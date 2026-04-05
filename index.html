@@ -19,13 +19,13 @@
     </div>
     <div class="right-container">
         <div class="top-container">
-            <p class= "p1">This is not a real online service! You know you need something like this in your life to help you realize yout deepest dreams.</p>
+            <p class= "p1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
             <p class="p2">Sign up <i>now</i> to get started</p>
             <p class="p2">You <i>know</i> you want to.</p>
         </div>
         <div class="middle-container">
             <p class="p3">Let's do this!</p>
-            <form action="#" method="POST">
+            <form id="sign-up-form" action="#" method="POST">
             <div class="first-row-form">
                 <div class="for-first-name">
                     <label for="first-name">FIRST NAME *</label>
@@ -56,12 +56,12 @@
                     <input type="password" id="password2" name="password2" minlength="8" required>
                 </div>
             </div>
+            </form>
         </div>
         <div class="third-container">
-            <button type="submit" id="submit-button" name="submit-button">Create Account</button>
-            <p class="p4">Alrady have an account? <a href="#" class="login-class">Log in</a></p>
+            <button type="submit" id="submit-button" name="submit-button" form="sign-up-form">Create Account</button>
+            <p class="p4">Already have an account? <a href="#" class="login-class">Log in</a></p>
         </div>
-    </form>
     </div>
     
 </body>
